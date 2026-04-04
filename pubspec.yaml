@@ -1,0 +1,56 @@
+name: split
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.5+1
+  go_router: ^17.0.0
+  firebase_core: ^4.2.1
+  firebase_auth: ^6.1.2
+  cloud_firestore: ^6.1.0
+  firebase_storage: ^13.0.4
+  google_sign_in: ^6.2.1
+  google_fonts: ^6.3.2
+  equatable: ^2.0.7
+  uuid: ^4.5.2
+  image_picker: ^1.1.2
+  fl_chart: ^0.69.0
+  intl: ^0.19.0
+  pdf: ^3.11.1
+  printing: ^5.13.3
+  path_provider: ^2.1.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+  # Added for app icon generation
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/icon/icon.png
+    # If you have an adaptive foreground:
+    # - assets/icon/icon-foreground.png
+
+# Added based on README.md
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/icon.png"
+  adaptive_icon_background: "#FFFFFF"
+  # Uncomment this if you create a foreground image:
+  # adaptive_icon_foreground: "assets/icon/icon-foreground.png"
