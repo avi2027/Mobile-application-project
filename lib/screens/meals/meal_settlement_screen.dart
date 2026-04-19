@@ -11,7 +11,7 @@ import 'package:split/services/meal_service.dart';
 import 'package:split/services/meal_settlement_service.dart';
 import 'package:split/services/user_service.dart';
 
-/// Screen for displaying meal-based settlement calculations
+/// Screen for displaying meal-based settlement calculation
 class MealSettlementScreen extends StatefulWidget {
   final String groupId;
 
