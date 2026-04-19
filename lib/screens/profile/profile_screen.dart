@@ -11,7 +11,6 @@ import 'package:firebase_storage/firebase_storage.dart';
 import 'package:uuid/uuid.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 // ignore_for_file: use_build_context_synchronously
-// jj
 
 class ProfileScreen extends StatefulWidget {
   const ProfileScreen({super.key});
